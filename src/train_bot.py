@@ -10,6 +10,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 import argparse
+import warnings
+warnings.filterwarnings("ignore")
 
 
 class TrainChatBot:
