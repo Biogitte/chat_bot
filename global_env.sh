@@ -27,6 +27,9 @@ export CLASSES="$(ls $OUTPUT/*_chatbot_classes.pkl | sort -V | tail -n1)"
 export TRAIN_BOT_SCRIPT=$SRC/train_bot.py
 export TRAIN_BOT=$EXEC/train_bot.sh
 
+export BOT_SCRIPT=$SRC/chatbot.py
+export CHATBOT=$EXEC/run_bot.sh
+
 export KAGGLE_SCRIPT=$SRC/fetch_kaggle_data.py
 export KAGGLE_DATASET='therealsampat/intents-for-first-aid-recommendations'
 export KAGGLE_NEW_NAME='first_aid_intents.json'
