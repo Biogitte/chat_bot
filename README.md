@@ -5,29 +5,29 @@ The first aid Chatbot are based on a Sequential Deep Learning model trained on [
 
 Repository structure
 --------------------
-.
-├── README.md								# README file
-├── data									# Data directory
-│	├── output								# Output files
-│	│	├── <date>_chatbot.h5				# Chatbot model
-│	│	├── <date>_chatbot_classes.pkl		# Picled list of Chatbot categories/classes
-│	│	├── <date>_chatbot_words.pkl		# Pickled Chatbot vocabulary list
-│	│	├── <date>_learning_curves.png		# Learning curves from Chatbot model training
-│	│	└── <date>_history_logger.csv		# Training history (i.e., epochs, )
-│	└── training							# Input training data
-│	     └── first_aid_intents.json			# Input first aid data set from Kaggle
-├── exec									# Executables
-│	├── fetch_data.sh						# Fetch Kaggle data: $FETCH_DATA
-│	├── run_bot.sh							# Run the chatbot: $CHATBOT
-│	└── train_bot.sh						# Train Chatbot model: $TRAIN_BOT
-├── global_env.sh							# Global environment variables
-├── requirements.txt						# Dependencies
-├── setup.py								# Setup script to install local modules
-└──  src									# Source code
-	├── __init__.py							# __init__ file for module creation
-	├── chatbot.py							# Chatbot script
-	├── fetch_kaggle_data.py				# Fetch Kaggle data
-	└── train_bot.py						# Model training script
+    .
+    ├── README.md								# README file
+    ├── data									# Data directory
+    │	├── output								# Output files
+    │	│	├── <date>_chatbot.h5				# Chatbot model
+    │	│	├── <date>_chatbot_classes.pkl		# Picled list of Chatbot categories/classes
+    │	│	├── <date>_chatbot_words.pkl		# Pickled Chatbot vocabulary list
+    │	│	├── <date>_learning_curves.png		# Learning curves from Chatbot model training
+    │	│	└── <date>_history_logger.csv		# Training history (i.e., epochs, )
+    │	└── training							# Input training data
+    │	     └── first_aid_intents.json			# Input first aid data set from Kaggle
+    ├── exec									# Executables
+    │	├── fetch_data.sh						# Fetch Kaggle data: $FETCH_DATA
+    │	├── run_bot.sh							# Run the chatbot: $CHATBOT
+    │	└── train_bot.sh						# Train Chatbot model: $TRAIN_BOT
+    ├── global_env.sh							# Global environment variables
+    ├── requirements.txt						# Dependencies
+    ├── setup.py								# Setup script to install local modules
+    └──  src									# Source code
+	    ├── __init__.py							# __init__ file for module creation
+	    ├── chatbot.py							# Chatbot script
+	    ├── fetch_kaggle_data.py				# Fetch Kaggle data
+	    └── train_bot.py						# Model training script
 
 Prerequisites
 -------------
