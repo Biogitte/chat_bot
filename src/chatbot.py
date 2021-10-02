@@ -34,7 +34,6 @@ class ChatBot:
         self.lemmatizer = WordNetLemmatizer()
 
     def import_json(self, intents: str):
-        # TODO: add description of JSON structure used for training data in docstring.
         """Import JSON file containing intents."""
         self.intents = json.loads(open(intents).read())
 
