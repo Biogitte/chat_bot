@@ -2,17 +2,18 @@
 import random
 import pickle
 import numpy as np
-import nltk
-from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 import argparse
 import json
 import warnings
 import os
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 warnings.filterwarnings("ignore")
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+# 0: default behavior, 1: will not print INFO, 2: will not print INFO and WARNING
+# 3: will not print INFO, WARNING or ERROR messages
 
 class ChatBot:
     """ Chatbot. """
