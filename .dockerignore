@@ -1,0 +1,14 @@
+/venv/**
+**/__pycache__/**
+**/.idea/**
+**/.ipynb_checkpoints/**
+/.src.egg-info/**
+**/.git
+
+.DS_Store
+**/.DS_Store
+
+.dockerignore
+.idea/
+.ipynb_checkpoints/
+src.egg-info/**
