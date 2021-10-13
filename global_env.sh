@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Working directory - remember to specify accordingly.
-export WORK_DIR=~/Desktop/code/chat_bot
+export WORK_DIR=$PWD
 
 # Data directories
 export DATA=$WORK_DIR/data
